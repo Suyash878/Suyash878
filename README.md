@@ -17,8 +17,6 @@ Skills: JS / REACT / HTML / CSS/ EXPRESS JS/ C / C++
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Suyash878&show_icons=true)  
 
-![Vaunt Badge](https://api.vaunt.dev/v1/github/entities/Suyash878/contributions?format=svg&private=false)  
-
 ![GitHub metrics](https://metrics.lecoq.io/Suyash878)  
 
 ![GitHub streak stats](https://streak-stats.demolab.com/?user=Suyash878)  
