@@ -59,8 +59,7 @@ Hi, I am Suyash and welcome to my github profile, I am currently in my 3rd year 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-### 😂 Random Dev Meme
-<img src='https://memer-new.vercel.app/' style="height: 400px;"/>
+
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 [![An image of @suyash878's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/suyash878)](https://holopin.io/@suyash878)
 
