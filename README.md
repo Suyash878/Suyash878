@@ -1,6 +1,7 @@
 # 💫 About Me:
 Hi, I am Suyash and welcome to my github profile, I am currently in my 3rd year of my college and I love to work on new projects and develop new web-apps and learning as I proceed.
 
+![](https://komarev.com/ghpvc/?username=Suyash878)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
