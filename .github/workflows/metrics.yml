@@ -1,0 +1,28 @@
+name: Generate Metrics
+
+on:
+  schedule:
+    # Runs the workflow every day at midnight UTC
+    - cron: "0 0 * * *"
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Generate metrics using the Metrics plugin
+      - name: Metrics embed
+        uses: lowlighter/metrics@latest
+        with:
+          # Replace "YOUR_USERNAME" with your GitHub username
+          username: Suyash878
+          template: classic
+          plugins: stars, commits, lines
+          token: ${{ secrets.GITHUB_TOKEN }}
