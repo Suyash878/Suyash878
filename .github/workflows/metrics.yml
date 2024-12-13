@@ -1,28 +1,38 @@
 name: Generate Metrics
 
 on:
-  schedule:
-    # Runs the workflow every day at midnight UTC
-    - cron: "0 0 * * *"
+  # Trigger workflow on push, pull request, or manually
   push:
-    branches: [ "main" ]
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
-  metrics:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository
+      # Step 1: Check out the repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Generate metrics using the Metrics plugin
+      # Step 2: Generate metrics
       - name: Metrics embed
         uses: lowlighter/metrics@latest
         with:
-          # Replace "YOUR_USERNAME" with your GitHub username
-          username: Suyash878
+          username: Suyash878 
           template: classic
-          plugins: stars, commits, lines
           token: ${{ secrets.GITHUB_TOKEN }}
+          output: metrics.svg # Saves metrics as metrics.svg in the root directory
+
+      # Step 3: Commit and push the generated file
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Update metrics" || echo "No changes to commit"
+          git push
