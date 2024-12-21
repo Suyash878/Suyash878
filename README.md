@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hello, I am Suyash and welcome to my github profile, I am currently in my 3rd year of my college and I love to work on new projects and develop new web-apps and learning as I proceed.
+Hello, I am Suyash and welcome to my github profile, And I am currently in my 3rd year of my college and I love to work on new projects and develop new web-apps and learning as I proceed.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
