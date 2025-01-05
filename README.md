@@ -5,7 +5,6 @@ Hello, I am Suyash and welcome to my github profile, And I am currently in my 3r
 <p align="left">
 <a href="https://x.com/suyash43644869" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="elzoukinadir1" height="30" width="40" /></a>
 <a href="(https://www.linkedin.com/in/suyash-mishra-a935b4259/)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="nadir elzouki" height="30" width="40" /></a>
-<a href="https://instagram.com/better_call_suyash" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="nadirelzouki22" height="30" width="40" /></a>
 <a href="https://leetcode.com/u/Suyash7676/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="elzoukigroup2018" height="30" width="40" /></a>
 </p>
 
